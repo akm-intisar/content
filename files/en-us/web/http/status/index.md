@@ -206,7 +206,8 @@ The below status codes are defined by [section 10 of RFC 2616](https://datatrack
   - : Further extensions to the request are required for the server to fulfill it.
 - {{HTTPStatus(511, "511 Network Authentication Required")}}
   - : Indicates that the client needs to authenticate to gain network access.
-
+- {{HTTPStatus(521, "521 Web Server Down")}}
+  - : The origin web server refuses connections from Cloudflare.
 ## Browser compatibility
 
 {{Compat}}
